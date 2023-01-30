@@ -1,0 +1,58 @@
+#root {
+  min-height: 100vh;
+  position: relative;
+}
+
+.darkBackground {
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100vw;
+  bottom: 0;
+  top: 0;
+  position: absolute;
+  z-index: 1;
+}
+  
+.container {
+  background-color: rgba(255, 255, 255);
+  padding: 30px 50px;
+  z-index: 100;
+  display: flex;
+  left: calc((100% - 394px) / 2);
+  top: calc((100vh - 266px) / 2);
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+}
+
+input {
+  width: 200px;
+}
+
+.title {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.inputWrapper {
+  display: flex;
+  align-items: 'center';
+  margin-bottom: 10px;
+}
+
+.label {
+  width: 90px;
+  font-size: 18px;
+}
+
+.buildBtn {
+  margin-top: 30px;
+  padding: 8px 0;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: rgb(245, 99, 100);
+  border: none;
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+  width: 150px;
+}

@@ -1,0 +1,30 @@
+.cancelBtn {
+  margin-right: 50px;
+  width: 150px;
+  padding: 8px 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: rgb(245, 99, 100);
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  border: 2px solid rgb(245, 99, 100);
+  cursor: pointer;
+}
+
+.deleteBtn {
+  margin-right: 50px;
+  width: 150px;
+  padding: 8px 0;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: rgb(245, 99, 100);
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  border: 2px solid rgb(245, 99, 100);
+  cursor: pointer;
+}
+
+.confirmModal {
+  left: calc((100% - 553px) / 2);
+  top: calc((100vh - 147px) / 2);
+}
